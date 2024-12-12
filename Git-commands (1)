@@ -29,15 +29,15 @@ git init # To create a local Git empty repository on the current working directo
 
 git status # provides the status of your local repository. This will display all untracked and tracked files.
 
-git add <file name>  # Add files into your staging area. This enables git to start tracking chnages to the files
+git add <file name>  # Add files into your staging area. This enables git to start tracking changes to the files
 
 git add --all or git add . # To add all files in current directory
 
 git commit -m "pass your own commit message"  # this takes a snapshot of the your local repository that way you can revert to previous snapshots/commits. This in another sense is adding the changes to the history of your repo
 
-git commit -a -m "pass your own commit message"  # This command with stage all changes and commits at the smae time
+git commit -a -m "pass your own commit message"  # This command with stage all changes and commits at the same time
 
-git push -u origin < branch-name >  # push committed changes to remote repository
+git push -u origin < branch-name >  # push committed changes to remote repository make connectivity between local repo and remote repo
 
 
 ######################## Other Git commands ##################################
